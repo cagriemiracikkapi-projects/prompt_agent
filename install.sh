@@ -29,7 +29,7 @@ fi
 
 # 3. Clone the repository
 # Note: You should replace 'YOUR_USERNAME' with your actual GitHub username once pushed.
-REPO_URL="https://github.com/YOUR_USERNAME/prompt_agent.git"
+REPO_URL="https://github.com/cagriemiracikkapi-projects/prompt_agent.git"
 
 echo "📥 Downloading Prompt Agent from $REPO_URL..."
 git clone --depth 1 "$REPO_URL" "$TARGET_DIR" 2>/dev/null
