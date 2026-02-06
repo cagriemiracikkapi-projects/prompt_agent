@@ -46,6 +46,8 @@ Register a new MCP tool to the agent's memory.
 *   **sequential-thinking** (Reasoning)
 *   **morphllm-fast-apply** (Editing)
 *   **playwright** (Web Automation)
+*   **magic** (UI Generation)
+*   **tavily** (Web Search)
 
 *(And any you add via `/add_mcp`)*
 
