@@ -37,6 +37,13 @@ git clone --depth 1 "$REPO_URL" "$TARGET_DIR" 2>/dev/null
 if [ $? -eq 0 ]; then
     echo -e "${GREEN}✅ Installation Complete!${NC}"
     echo -e "   Agent installed to: ${BLUE}$TARGET_DIR${NC}"
+
+    # Create symlinks for workflows to make them accessible via slash commands
+    mkdir -p "$AGENT_DIR/workflows"
+    ln -sf "../prompt_agent/workflows/generate_prompt.md" "$AGENT_DIR/workflows/generate_prompt.md"
+    ln -sf "../prompt_agent/workflows/add_mcp.md" "$AGENT_DIR/workflows/add_mcp.md"
+    echo "   🔗 Linked workflows to .agent/workflows/"
+
     echo ""
     echo -e "   ${GREEN}Usage:${NC}"
     echo "   Run the following command in Antigravity or Claude:"
