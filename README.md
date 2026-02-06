@@ -13,8 +13,17 @@
 
 This agent is designed to work with **Claude Desktop** or CLI environments like **Antigravity**.
 
-1.  Clone this repository into your agent's workspace or `.agent` directory.
+### Quick Install (One-Line)
+Run this command in your project root:
+```bash
+curl -sL https://raw.githubusercontent.com/YOUR_USERNAME/prompt_agent/main/install.sh | bash
+```
+*(Note: Replace YOUR_USERNAME with your GitHub username)*
+
+### Manual Install
+1.  Create the directory and clone:
     ```bash
+    mkdir -p .agent
     git clone https://github.com/YOUR_USERNAME/prompt_agent.git .agent/prompt_agent
     ```
 
