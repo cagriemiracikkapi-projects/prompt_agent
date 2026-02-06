@@ -16,7 +16,7 @@ This agent is designed to work with **Claude Desktop** or CLI environments like 
 ### Quick Install (One-Line)
 Run this command in your project root:
 ```bash
-curl -sL https://raw.githubusercontent.com/YOUR_USERNAME/prompt_agent/main/install.sh | bash
+curl -sL https://raw.githubusercontent.com/cagriemiracikkapi-projects/prompt_agent/main/install.sh | bash
 ```
 *(Note: Replace YOUR_USERNAME with your GitHub username)*
 
@@ -24,7 +24,7 @@ curl -sL https://raw.githubusercontent.com/YOUR_USERNAME/prompt_agent/main/insta
 1.  Create the directory and clone:
     ```bash
     mkdir -p .agent
-    git clone https://github.com/YOUR_USERNAME/prompt_agent.git .agent/prompt_agent
+    git clone https://github.com/cagriemiracikkapi-projects/prompt_agent.git .agent/prompt_agent
     ```
 
 ## 🛠️ Usage
