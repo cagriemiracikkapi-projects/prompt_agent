@@ -10,3 +10,5 @@
 | **chrome-devtools** | **Web Debugging** | Use for console logs/network errors. |
 | **morphllm-fast-apply** | **Code Editing** | Use for precise file modification. |
 | **claude-mem (Built-in)**| **Project State** | Use to save plans/reports for next session. |
+| **magic (21st.dev)** | **UI Generation** | Use for "Create a React component" (Needs API Key). |
+| **tavily** | **Web Search** | Use for finding latest docs/news (Needs API Key). |
